@@ -1,3 +1,9 @@
+/* Nama File    : Fakultas.java
+ * Deskripsi    : Class Fakultas
+ * Pembuat      : 24060123120039 / M. Daffa' Atstsaqif
+ * Tanggal      : 28 Maret 2025
+ */
+
 public class Fakultas {
     private String nama;
     private double tarifUKT;

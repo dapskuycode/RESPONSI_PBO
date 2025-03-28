@@ -1,3 +1,9 @@
+/* Nama File    : Mahasiswa.java
+ * Deskripsi    : Class Mahasiswa turuan dari class CivitasAkademika
+ * Pembuat      : 24060123120039 / M. Daffa' Atstsaqif
+ * Tanggal      : 28 Maret 2025
+ */
+
 public class Mahasiswa extends CivitasAkademika {
     private String NIM;
     private int semester;

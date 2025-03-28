@@ -1,3 +1,9 @@
+/* Nama File    : Main.java
+ * Deskripsi    : Class main untuk demo semua class
+ * Pembuat      : 24060123120039 / M. Daffa' Atstsaqif
+ * Tanggal      : 28 Maret 2025
+ */
+
 public class Main {
     public static void main(String[] args) {
         Fakultas fakultas = new Fakultas("Sains dan Matemaka", 5000000, 7000000);
@@ -10,20 +16,20 @@ public class Main {
         Tendik tendik1 = new Tendik("Pak Tendik Satu", "Tendik1@mail.com", "111222333", 15);
         Tendik tendik2 = new Tendik("Pak Tendik dua", "Tendik2@mail.com", "444555666", 10);
 
-        System.out.println("=== Data Mahasiswa ===");
+        System.out.println("=== MAHASISWA ===");
         mhs1.printInfo();
         System.out.println();
         mhs2.printInfo();
 
-        System.out.println("\n=== Data Dosen ===");
+        System.out.println("\n=== DOSEN ===");
         dosen1.printInfo();
 
-        System.out.println("\n=== Data Tendik ===");
+        System.out.println("\n=== TENDIK ===");
         tendik1.printInfo();
         System.out.println();
         tendik2.printInfo();
 
-        System.out.println("\n=== Jumlah Civitas Akademika ===");
+        System.out.println("\n=== INFO ===");
         System.out.println("Jumlah Mahasiswa: " + Mahasiswa.getCounterMHS());
         System.out.println("Jumlah Dosen: " + Dosen.getCounterDosen());
         System.out.println("Jumlah Tendik: " + Tendik.getCounterTendik());
